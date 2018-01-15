@@ -7,15 +7,16 @@ read entries from `jrnl` at the command line. Here it is in action:
 
 ![viewjrnl](screenshot-viewjrnl.png)
 
-For comparison, this is what the plain `jrnl` output looks like:
-
-![jrnl](screenshot-jrnl.png)
-
 As seen in the screenshot, the features of `viewjrnl` include:
 
 - Grouping entries by date, to see where one day ends and another starts.
 - 12-hour timestamps, which are what I'm more used to reading.
 - Colorized output, so it's pleasant to look at.
+
+For comparison, this is what the plain `jrnl` output looks like:
+
+![jrnl](screenshot-jrnl.png)
+
 
 ## Install
 
