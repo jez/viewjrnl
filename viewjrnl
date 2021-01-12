@@ -63,4 +63,5 @@ fi | \
   # Use 'jq' to massage the JSON into the right format and pretty print it
   jq -r -f <(viewjrnl_jq) | \
   # Fire up 'less' if the output doesn't fit on one page, else just print it.
-  less -F -X
+  less -F -X | \
+  fold -w 80 
