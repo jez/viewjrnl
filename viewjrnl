@@ -56,7 +56,7 @@ EOF
 echo
 # Use 'jrnl' with whatever arguments we were given to get JSON
 if [ $# -eq 0 ]; then
-  jrnl -from today --export json
+  jrnl -from yesterday --export json
 elif [ $# -eq 1 ] && [[ "$1" =~ ^[a-z-]+$ ]]; then
   jrnl "$1" -from yesterday --export json
 else
